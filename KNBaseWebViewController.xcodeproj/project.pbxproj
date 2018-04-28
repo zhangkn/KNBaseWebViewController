@@ -20,6 +20,13 @@
 		E10948382094212A00A1E659 /* IPLoadingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E10948342094212900A1E659 /* IPLoadingTool.m */; };
 		E10948392094212A00A1E659 /* KNResourceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E10948372094212A00A1E659 /* KNResourceTool.m */; };
 		E109483D2094216400A1E659 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = E109483C2094216400A1E659 /* Const.m */; };
+		E1094841209424EF00A1E659 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E109483F209424EE00A1E659 /* LICENSE */; };
+		E1094842209424EF00A1E659 /* KNPodlib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E1094840209424EE00A1E659 /* KNPodlib.podspec */; };
+		E10948482094270200A1E659 /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E10948432094270000A1E659 /* apple-touch-icon.png */; };
+		E10948492094270200A1E659 /* deleteX.png in Resources */ = {isa = PBXBuildFile; fileRef = E10948442094270100A1E659 /* deleteX.png */; };
+		E109484A2094270200A1E659 /* hebaoGrayPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E10948452094270100A1E659 /* hebaoGrayPoint.png */; };
+		E109484B2094270200A1E659 /* hebaoWhitePoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E10948462094270100A1E659 /* hebaoWhitePoint.png */; };
+		E109484C2094270200A1E659 /* store_add.png in Resources */ = {isa = PBXBuildFile; fileRef = E10948472094270100A1E659 /* store_add.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +54,13 @@
 		E10948372094212A00A1E659 /* KNResourceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNResourceTool.m; sourceTree = "<group>"; };
 		E109483B2094216400A1E659 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		E109483C2094216400A1E659 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		E109483F209424EE00A1E659 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		E1094840209424EE00A1E659 /* KNPodlib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KNPodlib.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.metal; };
+		E10948432094270000A1E659 /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
+		E10948442094270100A1E659 /* deleteX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteX.png; sourceTree = "<group>"; };
+		E10948452094270100A1E659 /* hebaoGrayPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebaoGrayPoint.png; sourceTree = "<group>"; };
+		E10948462094270100A1E659 /* hebaoWhitePoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebaoWhitePoint.png; sourceTree = "<group>"; };
+		E10948472094270100A1E659 /* store_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_add.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,9 @@
 		E109480B20941E0600A1E659 /* KNBaseWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E109484D2094270600A1E659 /* Assets */,
+				E1094840209424EE00A1E659 /* KNPodlib.podspec */,
+				E109483F209424EE00A1E659 /* LICENSE */,
 				E109481A20941E0600A1E659 /* Info.plist */,
 				E109482520941E9100A1E659 /* Classes */,
 			);
@@ -170,6 +187,18 @@
 			path = Const;
 			sourceTree = "<group>";
 		};
+		E109484D2094270600A1E659 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E10948432094270000A1E659 /* apple-touch-icon.png */,
+				E10948442094270100A1E659 /* deleteX.png */,
+				E10948452094270100A1E659 /* hebaoGrayPoint.png */,
+				E10948462094270100A1E659 /* hebaoWhitePoint.png */,
+				E10948472094270100A1E659 /* store_add.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,9 +257,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1094842209424EF00A1E659 /* KNPodlib.podspec in Resources */,
+				E109484A2094270200A1E659 /* hebaoGrayPoint.png in Resources */,
+				E109484B2094270200A1E659 /* hebaoWhitePoint.png in Resources */,
 				E109481920941E0600A1E659 /* LaunchScreen.storyboard in Resources */,
 				E109481620941E0600A1E659 /* Assets.xcassets in Resources */,
+				E1094841209424EF00A1E659 /* LICENSE in Resources */,
 				E109481420941E0600A1E659 /* Main.storyboard in Resources */,
+				E109484C2094270200A1E659 /* store_add.png in Resources */,
+				E10948482094270200A1E659 /* apple-touch-icon.png in Resources */,
+				E10948492094270200A1E659 /* deleteX.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
