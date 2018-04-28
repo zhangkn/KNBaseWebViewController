@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'KNBaseWebViewController'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'KNPodlib Improve  customize webview functionality'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -33,6 +33,7 @@ s.source_files = 'KNBaseWebViewController/Classes/**/*.{h,m}'
   # xib， s.resources 这种方式会直接copynib 到目标工程
 #  s.resources = ["classes/**/*.xib"] #
    s.resource_bundles = {
+#KNBaseWebViewControllerDemo.app/Frameworks/KNBaseWebViewController.framework/KNBaseWebViewController.bundle> (not yet loaded)' with name 'HCPCMPayProgress''
        'KNBaseWebViewController' => ['KNBaseWebViewController/Assets/*.png','KNBaseWebViewController/Classes/**/*.xib'] #key 是 bundle 的名称，value 是需要包括的文件的通配 patterns;CocoaPods 官方强烈推荐使用 resource_bundles，因为用 key-value 可以避免相同名称资源的名称冲突We strongly recommend library developers to adopt resource bundles as there can be name collisions using the resources attribute.
 #       'OtherResources' => ['MapView/Map/OtherResources/*.png']
    }

@@ -27,6 +27,7 @@
 		E109484A2094270200A1E659 /* hebaoGrayPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E10948452094270100A1E659 /* hebaoGrayPoint.png */; };
 		E109484B2094270200A1E659 /* hebaoWhitePoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E10948462094270100A1E659 /* hebaoWhitePoint.png */; };
 		E109484C2094270200A1E659 /* store_add.png in Resources */ = {isa = PBXBuildFile; fileRef = E10948472094270100A1E659 /* store_add.png */; };
+		E10948712094375300A1E659 /* HCPCMPayProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10948702094375300A1E659 /* HCPCMPayProgress.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		E10948452094270100A1E659 /* hebaoGrayPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebaoGrayPoint.png; sourceTree = "<group>"; };
 		E10948462094270100A1E659 /* hebaoWhitePoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebaoWhitePoint.png; sourceTree = "<group>"; };
 		E10948472094270100A1E659 /* store_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_add.png; sourceTree = "<group>"; };
+		E10948702094375300A1E659 /* HCPCMPayProgress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCPCMPayProgress.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				E109482F20941F1000A1E659 /* HCPCMPayProgress.h */,
 				E109483020941F1000A1E659 /* HCPCMPayProgress.m */,
+				E10948702094375300A1E659 /* HCPCMPayProgress.xib */,
 				E109482D20941F1000A1E659 /* HCPPopLoadingDialog.h */,
 				E109482E20941F1000A1E659 /* HCPPopLoadingDialog.m */,
 			);
@@ -263,6 +266,7 @@
 				E109481920941E0600A1E659 /* LaunchScreen.storyboard in Resources */,
 				E109481620941E0600A1E659 /* Assets.xcassets in Resources */,
 				E1094841209424EF00A1E659 /* LICENSE in Resources */,
+				E10948712094375300A1E659 /* HCPCMPayProgress.xib in Resources */,
 				E109481420941E0600A1E659 /* Main.storyboard in Resources */,
 				E109484C2094270200A1E659 /* store_add.png in Resources */,
 				E10948482094270200A1E659 /* apple-touch-icon.png in Resources */,
