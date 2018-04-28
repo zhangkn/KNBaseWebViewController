@@ -13,6 +13,13 @@
 		E109481620941E0600A1E659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E109481520941E0600A1E659 /* Assets.xcassets */; };
 		E109481920941E0600A1E659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E109481720941E0600A1E659 /* LaunchScreen.storyboard */; };
 		E109481C20941E0600A1E659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E109481B20941E0600A1E659 /* main.m */; };
+		E109482720941EC300A1E659 /* KNBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E109482620941EC300A1E659 /* KNBaseWebViewController.m */; };
+		E109482B20941EDD00A1E659 /* UIWebView+TS_JavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E109482920941EDD00A1E659 /* UIWebView+TS_JavaScriptContext.m */; };
+		E109483120941F1000A1E659 /* HCPPopLoadingDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E109482E20941F1000A1E659 /* HCPPopLoadingDialog.m */; };
+		E109483220941F1000A1E659 /* HCPCMPayProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E109483020941F1000A1E659 /* HCPCMPayProgress.m */; };
+		E10948382094212A00A1E659 /* IPLoadingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E10948342094212900A1E659 /* IPLoadingTool.m */; };
+		E10948392094212A00A1E659 /* KNResourceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E10948372094212A00A1E659 /* KNResourceTool.m */; };
+		E109483D2094216400A1E659 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = E109483C2094216400A1E659 /* Const.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		E109481820941E0600A1E659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E109481A20941E0600A1E659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E109481B20941E0600A1E659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E109482220941E2700A1E659 /* KNBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseWebViewController.h; sourceTree = "<group>"; };
+		E109482620941EC300A1E659 /* KNBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseWebViewController.m; sourceTree = "<group>"; };
+		E109482920941EDD00A1E659 /* UIWebView+TS_JavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TS_JavaScriptContext.m"; sourceTree = "<group>"; };
+		E109482A20941EDD00A1E659 /* UIWebView+TS_JavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TS_JavaScriptContext.h"; sourceTree = "<group>"; };
+		E109482D20941F1000A1E659 /* HCPPopLoadingDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPPopLoadingDialog.h; sourceTree = "<group>"; };
+		E109482E20941F1000A1E659 /* HCPPopLoadingDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPPopLoadingDialog.m; sourceTree = "<group>"; };
+		E109482F20941F1000A1E659 /* HCPCMPayProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPCMPayProgress.h; sourceTree = "<group>"; };
+		E109483020941F1000A1E659 /* HCPCMPayProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPCMPayProgress.m; sourceTree = "<group>"; };
+		E10948342094212900A1E659 /* IPLoadingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPLoadingTool.m; sourceTree = "<group>"; };
+		E10948352094212900A1E659 /* KNResourceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNResourceTool.h; sourceTree = "<group>"; };
+		E10948362094212A00A1E659 /* IPLoadingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPLoadingTool.h; sourceTree = "<group>"; };
+		E10948372094212A00A1E659 /* KNResourceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNResourceTool.m; sourceTree = "<group>"; };
+		E109483B2094216400A1E659 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		E109483C2094216400A1E659 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,23 @@
 		E109480B20941E0600A1E659 /* KNBaseWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E109481A20941E0600A1E659 /* Info.plist */,
+				E109482520941E9100A1E659 /* Classes */,
+			);
+			path = KNBaseWebViewController;
+			sourceTree = "<group>";
+		};
+		E109482320941E3300A1E659 /* PublicInterface */ = {
+			isa = PBXGroup;
+			children = (
+				E109482220941E2700A1E659 /* KNBaseWebViewController.h */,
+			);
+			path = PublicInterface;
+			sourceTree = "<group>";
+		};
+		E109482420941E4700A1E659 /* other */ = {
+			isa = PBXGroup;
+			children = (
 				E109480C20941E0600A1E659 /* AppDelegate.h */,
 				E109480D20941E0600A1E659 /* AppDelegate.m */,
 				E109480F20941E0600A1E659 /* ViewController.h */,
@@ -65,10 +103,71 @@
 				E109481220941E0600A1E659 /* Main.storyboard */,
 				E109481520941E0600A1E659 /* Assets.xcassets */,
 				E109481720941E0600A1E659 /* LaunchScreen.storyboard */,
-				E109481A20941E0600A1E659 /* Info.plist */,
 				E109481B20941E0600A1E659 /* main.m */,
 			);
-			path = KNBaseWebViewController;
+			path = other;
+			sourceTree = "<group>";
+		};
+		E109482520941E9100A1E659 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E109483E2094216900A1E659 /* Const */,
+				E109483A2094212E00A1E659 /* tool */,
+				E109483320941F1B00A1E659 /* progress */,
+				E109482C20941EE700A1E659 /* javaScriptContext */,
+				E109482820941EC600A1E659 /* vc */,
+				E109482320941E3300A1E659 /* PublicInterface */,
+				E109482420941E4700A1E659 /* other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E109482820941EC600A1E659 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				E109482620941EC300A1E659 /* KNBaseWebViewController.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		E109482C20941EE700A1E659 /* javaScriptContext */ = {
+			isa = PBXGroup;
+			children = (
+				E109482A20941EDD00A1E659 /* UIWebView+TS_JavaScriptContext.h */,
+				E109482920941EDD00A1E659 /* UIWebView+TS_JavaScriptContext.m */,
+			);
+			path = javaScriptContext;
+			sourceTree = "<group>";
+		};
+		E109483320941F1B00A1E659 /* progress */ = {
+			isa = PBXGroup;
+			children = (
+				E109482F20941F1000A1E659 /* HCPCMPayProgress.h */,
+				E109483020941F1000A1E659 /* HCPCMPayProgress.m */,
+				E109482D20941F1000A1E659 /* HCPPopLoadingDialog.h */,
+				E109482E20941F1000A1E659 /* HCPPopLoadingDialog.m */,
+			);
+			path = progress;
+			sourceTree = "<group>";
+		};
+		E109483A2094212E00A1E659 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				E10948362094212A00A1E659 /* IPLoadingTool.h */,
+				E10948342094212900A1E659 /* IPLoadingTool.m */,
+				E10948352094212900A1E659 /* KNResourceTool.h */,
+				E10948372094212A00A1E659 /* KNResourceTool.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		E109483E2094216900A1E659 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				E109483B2094216400A1E659 /* Const.h */,
+				E109483C2094216400A1E659 /* Const.m */,
+			);
+			path = Const;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10948392094212A00A1E659 /* KNResourceTool.m in Sources */,
 				E109481120941E0600A1E659 /* ViewController.m in Sources */,
+				E109482B20941EDD00A1E659 /* UIWebView+TS_JavaScriptContext.m in Sources */,
+				E109483220941F1000A1E659 /* HCPCMPayProgress.m in Sources */,
+				E109483120941F1000A1E659 /* HCPPopLoadingDialog.m in Sources */,
+				E109483D2094216400A1E659 /* Const.m in Sources */,
+				E109482720941EC300A1E659 /* KNBaseWebViewController.m in Sources */,
 				E109481C20941E0600A1E659 /* main.m in Sources */,
 				E109480E20941E0600A1E659 /* AppDelegate.m in Sources */,
+				E10948382094212A00A1E659 /* IPLoadingTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
